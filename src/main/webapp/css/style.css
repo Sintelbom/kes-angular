@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.navbar .divider-vertical {
+	margin: 0 !important;
+}
+
+.navbar .nav > li > a {
+	padding: 10px 20px 11px !important;
+}
+
+.main {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-top: 40px;
+}
+
+.container {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer {
+	color: white;
+	background-color: #333;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}

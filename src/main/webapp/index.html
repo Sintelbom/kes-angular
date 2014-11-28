@@ -4,16 +4,51 @@
 		<meta charset="ISO-8859-1">
 		<title>KES AngularJS</title>
 		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link href="css/vendor/bootstrap.min.css" type="text/css" rel="stylesheet" />
+		<script src="js/vendor/jquery-1.11.1.min.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
 		<script src="js/vendor/angular.min.js"></script>
 		<script src="js/vendor/angular-route.min.js"></script>
-<!-- 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script> -->
-<!-- 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-route.min.js"></script> -->
 		<script src="js/app.js"></script>
-		<script src="js/controller/main.js"></script>
+		<script src="js/controller/main2.js"></script>
 	</head>
 	<body>
-		<header>Header</header>
-		<div ng-view=""></div>
-		<footer>Footer</footer>
+		<header class="header">
+			<div class="navbar navbar-fixed-top">
+				<div class="navbar-inner">
+					<div class="container">
+						<a class="brand" href="/" style="padding-top: 6px; padding-bottom: 0;">
+							<img src="img/angularjs-small.png">
+						</a>
+						<ul class="nav">
+							<li class="divider-vertical"></li>
+							<li class="active">
+								<a href="/">Home</a>
+							</li>
+							<li class="divider-vertical"></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Presentatie <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Model</a></li>
+									<li><a href="#">View</a></li>
+									<li><a href="#">Controller</a></li>
+								</ul>
+							</li>
+							<li class="divider-vertical"></li>
+						</ul>
+						<form class="navbar-search pull-right ng-pristine ng-valid" method="GET" action="https://www.google.com/search">
+					    	<input type="text" name="as_q" class="search-query" placeholder="Search">
+					        <input type="hidden" name="as_sitesearch" value="angularjs.org">
+					    </form>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="main container">
+			<div ng-view=""></div>
+		</div>
+		<footer class="footer">
+			<div class="container">Footer</div>
+		</footer>
 	</body>
 </html>
