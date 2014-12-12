@@ -1,0 +1,24 @@
+<h1>1. Two-way data binding</h1>
+<p>Lorem ipsum dollar it amet ...</p>
+<section>
+	<h2>Model => View</h2>
+	<p>Het Model is al gevuld</p>
+	<div class="demo-box-dashed">
+		<div>$scope.title = {{title}}</div>
+	</div>
+	<div class="demo-box">
+		<div><span class="tag">Title</span><span>{{title}}</span></div>
+	</div>
+</section>
+<section>
+	<h2>View => Model</h2>
+	<p>Vanuit de View kan het Model worden bewerkt</p>
+	<div class="demo-box-dashed">
+		<div>$scope.firstname = {{firstname}}</div>
+		<div>$scope.lastname = {{lastname}}</div>
+	</div>
+	<div class="demo-box">
+		<div><label for="firstname">Firstname</label><input type="text" ng-model="firstname" id="firstname"></div>
+		<div><label for="lastname">Lastname</label><input type="text" ng-model="lastname" id="lastname"></div>
+	</div>
+</section>

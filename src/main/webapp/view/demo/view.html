@@ -1,0 +1,15 @@
+<h1>4. View</h1>
+<p>Lorem ipsum dollar it amet ...</p>
+<section>
+	<h2>Lijst</h2>
+	<p>Lijst van gebruikers</p>
+	<div class="demo-box-dashed">
+		<div>$scope.users.length = {{users.length}}</div>
+		<pre>$scope.users = {{users | json}}</pre>
+	</div>
+	<div class="demo-box">
+		<div ng-repeat="user in users">
+			{{user.firstname}} {{user.lastname}}
+		</div>
+	</div>
+</section>

@@ -37,3 +37,26 @@ body {
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
+
+label,
+.tag {
+	width: 120px !important;
+	display: inline-block !important;
+}
+
+input[type=text] {
+	margin-bottom: 3px !important;
+}
+
+.demo-box-dashed {
+	border-left: 1px dashed #a5a5a5;
+	border-top: 1px dashed #a5a5a5;
+	border-right: 1px dashed #a5a5a5;
+	padding: 12px 20px;
+}
+
+.demo-box {
+	background: #f0f0f0;
+	border: 1px solid #d3d3d3;
+	padding: 12px 20px;
+}

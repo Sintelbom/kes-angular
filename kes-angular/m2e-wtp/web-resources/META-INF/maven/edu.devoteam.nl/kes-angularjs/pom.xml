@@ -1,9 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.devoteam.nl</groupId>
-  <artifactId>kes-angular</artifactId>
+  <artifactId>kes-angularjs</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>KES AngularJS</name>
   <description>Dit project geeft een demo van AngularJS</description>
+  <build>
+  	<directory>kes-angular</directory>
+  </build>
 </project>
